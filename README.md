@@ -2,11 +2,9 @@
 
 
 
----
-
 ##  Live Demo
 
-lafourneeweb.netlify.app
+🔗 [https://your-link-here.netlify.app](https://lafourneeweb.netlify.app/)
 
 ---
 
@@ -101,42 +99,16 @@ Bakery-Website/
 
 ##  Future Enhancements
 
-* 🛒 Add Shopping Cart (JavaScript)
-* 📦 Product Listing Page
-* 🌙 Dark Mode Toggle
-* ⚡ Animations (AOS / GSAP)
-* 🔗 Backend Integration
-
----
-
-##  GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" />
-</p>
-
----
+*  Add Shopping Cart (JavaScript)
+*  Product Listing Page
+*  Dark Mode Toggle
+*  Animations (AOS / GSAP)
+*  Backend Integration
 
 
 
 
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/yourusername">
-    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-blueviolet?style=for-the-badge"/>
-  </a>
-</p>
-
----
-
-## ⭐ Show Your Support
+##  Show Your Support
 
 If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
 

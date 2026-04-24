@@ -6,15 +6,6 @@
 
 🔗 [https://your-link-here.netlify.app](https://lafourneeweb.netlify.app/)
 
----
-
-##  Preview
-
-<p align="center">
-  <img src="https://via.placeholder.com/900x500.png?text=Bakery+Website+Preview" width="100%" />
-</p>
-
----
 
 ##  About The Project
 

@@ -4,7 +4,7 @@
 
 ##  Live Demo
 
-🔗 [https://your-link-here.netlify.app](https://lafourneeweb.netlify.app/)
+🔗 https://lafourneeweb.netlify.app/
 
 
 ##  About The Project
@@ -35,11 +35,11 @@ Many bakery or small business websites:
 
 This project solves these issues by implementing:
 
-✨ Modern layout using **Flexbox & Grid**
-✨ Soft pastel color palette for brand feel
-✨ Interactive hover animations
-✨ Clean typography and spacing
-✨ Fully responsive design across devices
+~ Modern layout using **Flexbox & Grid**
+~ Soft pastel color palette for brand feel
+~ Interactive hover animations
+~ Clean typography and spacing
+~ Fully responsive design across devices
 
 ---
 
@@ -103,4 +103,3 @@ Bakery-Website/
 
 If you like this project, consider giving it a ⭐ on GitHub — it helps a lot!
 
----

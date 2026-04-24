@@ -1,98 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bakery — Fresh Pastries</title>
- <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <div class="logo">Bakery</div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">About</a>
-        <a href="#">Visit</a>
-        <a href="#">Contact</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Fournée — Artisan Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-logo">La Fournée</span>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">La Fournée</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#visit" class="nav-link">Visit</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </nav>
-      <a href="#" class="order-btn">Order Now</a>
-    </header>
+      <a href="#order" class="order-btn">
+        <span>Order Now</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Freshly Baked, Just for You</h1>
-        <p>
-          Our breads, pastries & cakes are baked with passion every single day.
-        </p>
-        <a href="#" class="btn">Order Now</a>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="interior.webp" alt="Bakery" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">Est. 2010 · Artisan Bakery</p>
+      <h1 class="hero-title reveal">
+        <span>Freshly Baked,</span>
+        <em>Just for You</em>
+      </h1>
+      <p class="hero-sub reveal">Our breads, pastries & cakes are baked with passion every single morning using time‑honoured recipes.</p>
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn btn-light">Explore Menu</a>
+        <a href="#visit" class="btn btn-ghost">Find Us</a>
       </div>
-    </section>
+    </div>
+   
+   
+  </section>
 
-    <section class="why">
-      <h2>Why Choose Us?</h2>
-      <p>
-        We bake everything fresh every morning using traditional techniques and
-        premium ingredients. Taste the love in every bite!
-      </p>
-      <div class="features">
-        <div class="feature-card">
-          <img src="bakery1.jpg" alt="Artisan Bread" />
-          <div class="text">
-            <h3>Artisan Bread</h3>
-            <p>
-              Lovingly crafted sourdough, multigrain, and classic loaves baked
-              daily.
-            </p>
-            <a href="#" class="btn">Visit Bakery</a>
-          </div>
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Sourdough</span><span class="dot">✦</span>
+      <span>Croissants</span><span class="dot">✦</span>
+      <span>Custom Cakes</span><span class="dot">✦</span>
+      <span>Brioche</span><span class="dot">✦</span>
+      <span>Danishes</span><span class="dot">✦</span>
+      <span>Tarts</span><span class="dot">✦</span>
+      <span>Multigrain</span><span class="dot">✦</span>
+      <span>Macarons</span><span class="dot">✦</span>
+      <span>Sourdough</span><span class="dot">✦</span>
+      <span>Croissants</span><span class="dot">✦</span>
+      <span>Custom Cakes</span><span class="dot">✦</span>
+      <span>Brioche</span><span class="dot">✦</span>
+      <span>Danishes</span><span class="dot">✦</span>
+      <span>Tarts</span><span class="dot">✦</span>
+      <span>Multigrain</span><span class="dot">✦</span>
+      <span>Macarons</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- WHY SECTION -->
+  <section class="why" id="menu">
+    <div class="why-header">
+      <p class="section-tag reveal">Our Specialties</p>
+      <h2 class="section-title reveal">Why Choose <em>Us?</em></h2>
+      <p class="section-sub reveal">We bake everything fresh every morning using traditional techniques and premium ingredients. Taste the love in every bite.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <div class="card-img-wrap">
+          <img src="artison.webp" alt="Artisan Bread" />
+          <div class="card-tag">Signature</div>
         </div>
-        <div class="feature-card">
-          <img
-            src="https://i.pinimg.com/736x/3d/60/43/3d604338f8edeb22cc0283b716daddc8.jpg"
-            alt="Sweet Pastries"
-          />
-          <div class="text">
-            <h3>Sweet Pastries</h3>
-            <p>
-              Flaky croissants, fruity danishes, and delicate cookies just for
-              you.
-            </p>
-            <a href="#" class="btn">Visit Bakery</a>
-          </div>
-        </div>
-        <div class="feature-card">
-          <img
-            src="https://i.pinimg.com/736x/2f/10/89/2f10895ecd12ac32e9befe98b3c8f231.jpg"
-            alt="Custom Cakes"
-          />
-          <div class="text">
-            <h3>Custom Cakes</h3>
-            <p>
-              Birthday, wedding, celebration — choose your flavor, design, and
-              style.
-            </p>
-            <a href="#" class="btn">Visit Bakery</a>
-          </div>
+        <div class="card-body">
+          <h3>Artisan Bread</h3>
+          <p>Lovingly crafted sourdough, multigrain, and classic loaves baked fresh every dawn.</p>
+          <a href="#" class="card-link">Explore <span>→</span></a>
         </div>
       </div>
-    </section>
 
-    <section class="visit">
-      <div class="text">
-        <h2>Visit Us Today</h2>
-        <p>
-          Drop by our bakery and feel the warmth of freshly baked treats in the
-          air. We’re open daily with love in every loaf.
-        </p>
-        <a href="#" class="btn">Get Directions</a>
+      <div class="card card-featured reveal">
+        <div class="card-img-wrap">
+          <img src="cupcake.webp" alt="Sweet Pastries" />
+          <div class="card-tag">Popular</div>
+        </div>
+        <div class="card-body">
+          <h3>Sweet Pastries</h3>
+          <p>Flaky croissants, fruity danishes, and delicate cookies — a little sweetness for every day.</p>
+          <a href="#" class="card-link">Explore <span>→</span></a>
+        </div>
       </div>
-      <img
-        src="https://i.pinimg.com/1200x/32/f1/5f/32f15fd4e380f5ff7309fc499362905f.jpg"
-        alt="Bakery Interior"
-      />
-    </section>
 
-    <footer>© 2025 Bakery. All Rights Reserved.</footer>
-  </body>
+      <div class="card reveal">
+        <div class="card-img-wrap">
+          <img src="brownie.webp" alt="Custom Cakes" />
+          <div class="card-tag">Bespoke</div>
+        </div>
+        <div class="card-body">
+          <h3>Custom Cakes</h3>
+          <p>Birthday, wedding, celebration — choose your flavour, design, and story.</p>
+          <a href="#" class="card-link">Explore <span>→</span></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <div class="stats-strip">
+    <div class="stat reveal">
+      <span class="stat-num" data-target="14">0</span><span class="stat-unit">+</span>
+      <p>Years of Baking</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num" data-target="60">0</span><span class="stat-unit">+</span>
+      <p>Menu Items</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num" data-target="4800">0</span><span class="stat-unit">+</span>
+      <p>Happy Customers</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <span class="stat-num" data-target="100">0</span><span class="stat-unit">%</span>
+      <p>Natural Ingredients</p>
+    </div>
+  </div>
+
+  <!-- VISIT SECTION -->
+  <section class="visit" id="visit">
+    <div class="visit-img-wrap reveal">
+      <img src="interior.webp" />
+      <div class="visit-img-card">
+        <span class="vi-icon">🕗</span>
+        <div>
+          <strong>Opening Hours</strong>
+          <p>Mon–Sat · 7am – 8pm</p>
+          <p>Sunday · 8am – 6pm</p>
+        </div>
+      </div>
+    </div>
+    <div class="visit-text">
+      <p class="section-tag reveal">Come Visit</p>
+      <h2 class="section-title reveal">A Warm Welcome <em>Awaits You</em></h2>
+      <p class="reveal">Drop by our bakery and feel the warmth of freshly baked treats in the air. We're open daily with love baked into every loaf, every tart, every smile.</p>
+      <ul class="visit-list reveal">
+        <li><span class="vi">📍</span> 12 Rue de Boulangerie, Karachi</li>
+        <li><span class="vi">📞</span> +92 300 123 4567</li>
+        <li><span class="vi">✉️</span> hello@lafournee.pk</li>
+      </ul>
+      <a href="#" class="btn btn-dark reveal">Get Directions</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="about">
+   
+    <h2 class="section-title reveal" style="text-align:center">What Our Guests <em>Say</em></h2>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"The sourdough is unlike anything I've had in Karachi. Crusty outside, soft inside — pure perfection every single time."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div><strong>Aisha Malik</strong><span>Regular Customer</span></div>
+        </div>
+      </div>
+      <div class="testi-card testi-featured reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Ordered a custom wedding cake and it was breathtaking. Everyone at the reception kept asking where it came from. Absolute art!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">Z</div>
+          <div><strong>Zara Ahmed</strong><span>Bride, 2024</span></div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Their croissants on Sunday mornings have become a ritual for our whole family. Buttery, flaky, and absolutely divine."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">O</div>
+          <div><strong>Omar Qureshi</strong><span>Food Blogger</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="contact">
+    <div class="newsletter-inner reveal">
+      <p class="section-tag">Stay in Touch</p>
+      <h2>Get Fresh Deals <em>First</em></h2>
+      <p>Subscribe to our newsletter for seasonal specials, new menu drops, and baking tips.</p>
+      <form class="nl-form" onsubmit="handleSubscribe(event)">
+        <input type="email" placeholder="your@email.com" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="nl-note">No spam, ever. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="order">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">La Fournée</span>
+        <p>Baked with love, served with warmth.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="#">hello@lafournee.pk</a>
+        <a href="#">+92 300 123 4567</a>
+        <a href="#">12 Rue de Boulangerie</a>
+      </div>
+      <div class="footer-social">
+        <h4>Follow Along</h4>
+        <div class="social-icons">
+          <a href="#" class="si">IG</a>
+          <a href="#" class="si">FB</a>
+          <a href="#" class="si">TW</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 La Fournée Artisan Bakery. All Rights Reserved.</p>
+      <p>Crafted with ♥ for GitHub Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

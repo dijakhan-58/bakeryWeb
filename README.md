@@ -1,4 +1,4 @@
-#  Bakery Website — Premium UI/UX Project
+<img width="1902" height="955" alt="image" src="https://github.com/user-attachments/assets/c006e6e8-6489-4b0c-a4f8-1a8b53b33304" />#  Bakery Website — Premium UI/UX Project
 
 
 
